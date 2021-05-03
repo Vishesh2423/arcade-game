@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "Arcade"
+authors = ["Vishesh Garg visheshgarg2423@gmail.com"]
+description = "Welcome to a retro style Arcade Game. Please see the README.me file for more info."
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+blessed = "^1.18.0"
+python = "^3.8"
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
